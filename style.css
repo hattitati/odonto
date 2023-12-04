@@ -1,0 +1,421 @@
+@charset "UTF-8";
+
+/*index*/
+
+.wrapper{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.boxcont{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.imglogo{
+    width: 35%;
+    height: 80%;
+    background-color: #007979;
+    margin: 10px;
+}
+
+.boxlogo{
+    background-color: #007979;
+    width: 10%;
+    height: 60px;
+}
+
+nav{
+    background-color: #007979;
+    width: 90%;
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+
+nav ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+}
+
+nav ul li a:hover{
+    font-size: 1.1em;
+    text-decoration: underline;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boxbanner{
+    width: 100%;
+}
+
+.imgbanner{
+    width: 100%;
+    height: 100%;
+}
+
+.boxclin{
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1%;
+}
+
+.imgclin{
+    width: 100%;
+    height: auto;
+}
+
+.boxclientes{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxdep{
+    border-color: black;
+    border-style: solid;
+    width: 25%;
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 5px;
+}
+
+.imgdep{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.boxhoras{
+    width: 48%;
+    background-color: #007979;
+    color: #ffffff;
+    text-align: left;
+    font-size: 1em;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2%;
+}
+
+.boxrodape{
+    padding-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Tratamentos*/
+
+.boxtrat{
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    height: 400px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    border-color: #987407;
+    border-style: solid;
+    padding: 20px;
+}
+
+.imgtrat{
+    width: 25%;
+    height: auto;
+    padding-top: 15px;
+}
+
+/*Equipe*/
+
+.boxequipe{
+    width: 45%;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgequipe{
+    width: 200px;
+    height: 200px;
+}
+
+/*Blog*/
+
+.boxblog{
+    width: 60%;
+    height: 400px;
+    margin: 50px;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blogmais{
+    text-align: right;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ad8111;
+}
+
+.imgblog{
+    width: 60%;
+    height: auto;
+    text-align: center;
+}
+
+.textoblog{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.post{
+    width: 60%;
+    text-align: center;
+    background-color: #ad8111;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top: 80px;
+
+}
+
+.boxcontato{
+    width: 80%;
+    height: 45px;
+    background-color: #ad8111;
+    color: #ffffff;
+    margin: 30px;
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxform{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000000;
+}
+
+
+/*telas responsivas*/
+ 
+@media screen and (min-width: 360px) {
+.boxclin {
+        width: 80%;
+        height: auto;
+        float: left;
+        margin: 1%;
+        font-size: 1em; 
+        padding: 1%;
+    }
+
+.boxdep {
+    width: 80%;
+    height: auto;
+    float: left;
+    margin: 1%;
+    font-size: 1em; 
+    padding: 1%;
+}
+
+.boxhoras {
+        width: 80%;
+        height: auto;
+        float: left;
+        margin: 0%;
+        font-size: 1em; 
+        padding: 1%;
+    }
+
+.boxtrat {
+            width: 80%;
+            height: auto;
+            float: left;
+            margin: 1%;
+            font-size: 1em; 
+            padding: 1%;
+        }
+
+.boxequipe {
+            width: 80%;
+            height: auto;
+            float: left;
+            margin: 1%;
+            font-size: 1em; 
+            padding: 1%;
+        }
+}
+
+
+@media screen and (min-width: 520px) {
+.boxclin {
+        width: 40%;
+        height: auto;
+        float: left;
+        margin: 1%;
+        font-size: 1em; 
+        padding: 1%;
+    }
+
+.boxequipe {
+        width: 70%;
+        height: auto;
+        float: left;
+        margin: 1%;
+        font-size: 1em; 
+        padding: 1%;
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+.boxdep {
+        width: 30%;
+        height: auto;
+        float: left;
+        margin: 1%;
+        font-size: 1em; 
+        padding: 1%;
+    }
+
+   
+.boxhoras {
+            width: 40%;
+            height: auto;
+            float: left;
+            margin: 0%;
+            font-size: 1em; 
+            padding: 0%;
+        }
+
+
+.boxtrat {
+                width: 40%;
+                height: auto;
+                float: left;
+                margin: 1%;
+                font-size: 1em; 
+                padding: 1%;
+            }
+        }
+    
+
+@media screen and (min-width: 582px) {
+.boxdep {
+        width: 25%;
+        height: auto;
+        float: left;
+                margin: 1%;
+                font-size: 1em; 
+                padding: 1%;
+            }
+        
+           
+.boxhoras {
+            width: 80%;
+            height: auto;
+            float: left;
+            margin: 0%;
+            font-size: 1em; 
+            padding: 1%;
+                }
+        
+.boxtrat {
+            width: 40%;
+            height: auto;
+            float: left;
+            margin: 1%;
+            font-size: 1em; 
+            padding: 1%;
+        }
+}
+                
+
+@media screen and (min-width: 992px) {
+    .boxclin {
+        width: 20%;
+        height: auto;
+        float: left;
+        margin: 1%;
+        font-size: 1em; 
+        padding: 1%;
+    }
+
+    .boxdep {
+        width: 25%;
+        height: auto;
+        float: left;
+        margin: 1%;
+        font-size: 1em; 
+        padding: 1%;
+    }
+
+    .boxhoras {
+            width: 48%;
+            height: auto;
+            font-size: 1em; 
+        }
+
+    .boxtrat {
+                width: 80%;
+                height: auto;
+                float: left;
+                margin: 1%;
+                font-size: 1em; 
+                padding: 1%;
+            }
+    
+    .boxequipe {
+            width: 45%;
+            height: auto;
+            float: left;
+            font-size: 1em; 
+            flex-direction: row;
+    }
+} 
